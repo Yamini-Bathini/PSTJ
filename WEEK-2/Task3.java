@@ -1,4 +1,4 @@
-package PSTJ;
+
 import java.util.*;
 import java.util.stream.*;
 class Person {
