@@ -29,6 +29,7 @@ public class Solution {
             double cgpa = in.nextDouble();
             studentList.add(new Student(id, fname, cgpa));
         }
+        
         Collections.sort(studentList, new Comparator<Student>() {
             public int compare(Student a, Student b) {
                 if (Double.compare(b.cgpa, a.cgpa) != 0) {
